@@ -1,0 +1,17 @@
+#konten1{
+    /* background: url(./img/m.jpg); */
+    /* background: fixed; */
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 60`x; */
+}
+.nav-item,.navbar-brand{
+    font-weight: 500;
+}
+.carousel-caption h3{
+    font-family: ;
+}
+.navbar-toggler{;
+    margin-right:400px;
+    bottom:10px;
+}
