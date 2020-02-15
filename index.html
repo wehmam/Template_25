@@ -8,7 +8,27 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <script>
+        function hover(isi) {
+            isi.style.backgroundColor = "red"
+        }
+
+        function cabut(isi) {
+            isi.style.backgroundColor = "";
+        }
+
+        function cap(isi) {
+            isi.style.color = "red";
+        }
+
+        function but(isi) {
+            isi.style.color = "";
+        }
+        // onmouseover="this.style.backgroundColor='red'" onmouseout="this.style.backgroundColor=''"
+    </script>
 </head>
 
 <body>
@@ -108,7 +128,7 @@
     <!-- jumbo -->
     <div class="jumbotron" id="konten2">
         <div class="container">
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-12 col-md-3">
                     <h4>Where You want To go</h3>
                 </div>
@@ -126,9 +146,9 @@
                 <div class="col-12 col-md-2">
                     <div class="form-group row">
                         <div class="col-10">
-                          <input class="form-control" type="date" value="2020-02-14" id="example-date-input">
+                            <input class="form-control" type="date" value="2020-02-14" id="example-date-input">
                         </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col-12 col-md-2">
                     <div class="form-group">
@@ -140,7 +160,7 @@
                             <option>5</option>
                         </select>
                     </div>
-                    
+
                 </div>
                 <div class="col-12 col-md-2">
                     <a href="" class="btn btn-danger">Search</a>
@@ -148,6 +168,232 @@
             </div>
         </div>
     </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row justify-content-center mt-5">
+                <div class="col-12 col-md-6 text-center mt-5">
+                    <h3>Popular Destination</h3>
+                    <p class="text-muted">Suffered Alteration in some form, by injected humour or good dat randomised
+                        booth anim 8-bit hella wolf moon beard words</p>
+                </div>
+            </div>
+            <!-- card 1 -->
+            <div class="row mt-5 mb-5">
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <img src="img/3.jpg" class="img-fluid card-img">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title my-5 mx-3" onmouseover="cap(this)" onmouseout="but(this)">Italy
+                                <span><a href="#" class="btn btn-primary mx-2" onmouseover="hover(this)"
+                                        onmouseout="cabut(this)">
+                                        <p class="small my-n1">07 places</p>
+                                    </a>
+                                </span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <img src="img/brazil.jpg" class="img-fluid card-img" alt="">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title my-5 mx-3" onmouseover="cap(this)" onmouseout="but(this)">Brazil
+                                <span><a href="#" class="btn btn-primary mx-2" onmouseover="hover(this)"
+                                        onmouseout="cabut(this)">
+                                        <p class="small my-n1">03 places</p>
+                                    </a>
+                                </span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <img src="img/america.jpg" class="img-fluid card-img" alt="">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title my-5 mx-3" onmouseover="cap(this)" onmouseout="but(this)">America
+                                <span><a href="#" class="btn btn-primary mx-2" onmouseover="hover(this)"
+                                        onmouseout="cabut(this)">
+                                        <p class="small my-n1">10 places</p>
+                                    </a>
+                                </span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="row mt-5 mb-5">
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <img src="img/3.jpg" class="img-fluid card-img" alt="">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title my-5 mx-3" onmouseover="cap(this)" onmouseout="but(this)">Nepal
+                                <span><a href="#" class="btn btn-primary mx-2" onmouseover="hover(this)"
+                                        onmouseout="cabut(this)">
+                                        <p class="small my-n1">02 places</p>
+                                    </a>
+                                </span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <img src="img/4.jpg" class="img-fluid card-img" alt="">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title my-5 mx-3" onmouseover="cap(this)" onmouseout="but(this)">Maldives
+                                <span><a href="#" class="btn btn-primary mx-2" onmouseover="hover(this)"
+                                        onmouseout="cabut(this)">
+                                        <p class="small my-n1">02 Places</p>
+                                    </a>
+                                </span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <img src="img/indonesia.jpg" class="img-fluid card-img" alt="">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title my-5 mx-3" onmouseover="cap(this)" onmouseout="but(this)">Indonesia
+                                <span><a href="#" class="btn btn-primary mx-2" onmouseover="hover(this)"
+                                        onmouseout="cabut(this)">
+                                        <p class="small my-n1">06 Places</p>
+                                    </a>
+                                </span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron" id="konten4">
+        <div class="container">
+            <div class="row mx-auto mt-5">
+                <div class="col-12 col-md-4">
+                    <h3>Subscribe Our Newsletter</h3>
+                    <p class="text-muted" style="font-size: 14px;">Subscribe newsletter to get offers and about new
+                        places to discover</p>
+                </div>
+                <div class=" col-8 col-md-6">
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Mail" name="" id="">
+                    </div>
+                </div>
+                <div class=" col-4 col-md-2">
+                    <a href="" class="btn btn-danger">Subscribe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron" id="konten5">
+        <div class="container mb-5">
+            <div class="row justify-content-center mt-5">
+                <div class="col-12 col-md-6">
+                    <h3 class=" text-center">Popular Places</h3>
+                    <p class="small text-center">Suffered in some form, By injected Humour or good day<br>
+                        and randomised booth anim 8-bit hella wolf moon beard words
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <img src="img/4.jpg" class="card-img-top" alt="...">
+                        <div class="card-img-overlay">
+                            <a href="" class="btn w-25" style="border-radius: 25px;">$500</a>
+                        </div>
+                         <div class="card-body">
+                          <h5 class="card-title">California</h5>
+                          <p class="card-text text-muted small">
+                              United States Of America
+                          </p>
+                          
+                    </div>
+                </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <img src="img/4.jpg" class="card-img-top" alt="...">
+                        <div class="card-img-overlay">
+                            <a href="" class="btn w-25" style="border-radius: 25px;">$500</a>
+                        </div>
+                         <div class="card-body">
+                          <h5 class="card-title">Korela Megna</h5>
+                          <p class="card-text text-muted small">
+                            United States Of America
+                          </p>
+                          <i class="material-icons" style="font-size:15px;color:red;">star</i>
+                          <i class="material-icons" style="font-size:15px;color:red;">star</i>
+                          <i class="material-icons" style="font-size:15px;color:red;">star</i>
+                          <i class="material-icons" style="font-size:15px;color:red;">star</i>
+                          <i class="material-icons" style="font-size:15px;color:red;">star</i>
+                    </div>
+                </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <img src="img/4.jpg" class="card-img-top" alt="...">
+                        <div class="card-img-overlay">
+                            <a href="" class="btn w-25" style="border-radius: 25px;">$500</a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">London</h5>
+                            <p class="card-text text-muted small">
+                                United Kingdom
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- konten 2 -->
+                <div class="row mt-4">
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="img/4.jpg" class="card-img-top" alt="...">
+                            <div class="card-img-overlay">
+                                <a href="" class="btn w-25" style="border-radius: 25px;">$500</a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="img/4.jpg" class="card-img-top" alt="...">
+                            <div class="card-img-overlay">
+                                <a href="" class="btn w-25" style="border-radius: 25px;">$500</a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="img/4.jpg" class="card-img-top" alt="...">
+                            <div class="card-img-overlay">
+                                <a href="" class="btn w-25" style="border-radius: 25px;">$500</a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
