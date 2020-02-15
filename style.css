@@ -1,17 +1,15 @@
-#konten1{
-    /* background: url(./img/m.jpg); */
-    /* background: fixed; */
-    background-size: cover;
-    background-attachment: fixed;
-    /* height: 60`x; */
-}
 .nav-item,.navbar-brand{
     font-weight: 500;
 }
-.carousel-caption h3{
-    font-family: ;
+#caption1{
+    top:300px;
+    /* position: fixed; */
+    /* margin-top: 100px; */
 }
-.navbar-toggler{;
-    margin-right:400px;
-    bottom:10px;
+#konten2{
+    background-color:rgb(1, 0, 51);
+    /* padding-bottom: -200px; */
+    margin-top:-48px;
+    color: #fff;
+    font-weight: bold;
 }
