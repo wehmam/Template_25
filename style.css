@@ -42,3 +42,8 @@
     color: #fff;
     text-shadow: 1px 1px 10px #000;
 }
+#video{
+        margin-top: -32px;
+        width: 100%;
+        height: 100%;
+}
