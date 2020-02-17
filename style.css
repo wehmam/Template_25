@@ -58,5 +58,8 @@
 }
 #footer{
     background-color:rgb(10, 9, 61);
-    height: 400px;
+}
+#insta img{
+    height: 40px;
+    width: 60px;
 }
